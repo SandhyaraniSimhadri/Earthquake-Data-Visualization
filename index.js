@@ -10,7 +10,7 @@ const path = require('path');
 const connection = mysql.createConnection({
   host: 'localhost',
   user: 'root',
-  password: '',
+  password: 'new_password',
   database: 'civic_datalab',
 });
 
